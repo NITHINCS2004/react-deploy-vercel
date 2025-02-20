@@ -1,4 +1,5 @@
 {
+  "homepage":"https://NITHINCS2004.github.io/login",
   
   "name": "youtube",
   
@@ -12,7 +13,8 @@
   
     
   "dev": "vite",
-  
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d dist",
     
   "build": "vite build",
   
